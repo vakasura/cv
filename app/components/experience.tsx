@@ -1,31 +1,62 @@
-const About = () => {
+const Experience = () => {
   return (
     <div>
-      <p>
-        Planni
-      </p>
+      <div className="p-4 bg-gray-800 rounded-lg text-white">
+        <div style={{ display: "flex", justifyContent: "space-between" }}>
+          <p>Martian</p>
+          <p>Founding Software Engineer | 2024</p>
+        </div>
+        <br />
+        <p className="text-justify">
+          Migrated Digital Ocean applications to GCP using Docker, Kubernetes,
+          and CircleCI, scaling the system from 100 to 100,000 requests per day,
+          demonstrating improved scalability and capacity.
+        </p>
+      </div>
       <br />
-      <p>
-        Founded a property technology company and built software using React, NextJS, AWS, Typescript, and MongoDB to streamline financial forecasting for property developers
-      </p>
+      <div className="p-4 bg-gray-800 rounded-lg text-white">
+        <div style={{ display: "flex", justifyContent: "space-between" }}>
+          <p>Clearco</p>
+          <p>Software Engineer | 2023</p>
+        </div>
+        <br />
+        <p className="text-justify">
+          Designed the first release of an enterprise-level component library
+          containing 40+ components using Vue3, PrimeVue, and Tailwind CSS,
+          increasing deployment speed and reducing bugs when shipping new
+          products.
+        </p>
+      </div>
       <br />
-      <p>
-        Secured two letters of intent, translating to $25 000 CAD in annual recurring revenue and funding at a $1M CAD valuation through a $50 000 CAD SAFE agreement from NEXT Canada proving the product's market fit
-      </p>
+      <div className="p-4 bg-gray-800 rounded-lg text-white">
+        <div style={{ display: "flex", justifyContent: "space-between" }}>
+          <p>Koho</p>
+          <p>Software Developer | 2023</p>
+        </div>
+        <br />
+        <p className="text-justify">
+          Refactored primary API to issue credit cards linked to appropriate
+          payment processing network (PPN) upon user and account creation
+          request flow; resulting in reduced swipe fees and data processing
+          costs.
+        </p>
+      </div>
       <br />
-      <p>
-        Depactor
-      </p>
-      <br />
-      <p>
-        Co-founded a cybersecurity start up applying machine learning and linguistic analysis to prevent business email compromise, receiving $14 000 CAD in fellowship funding from the University of Toronto Hatchery
-      </p>
-      <br />
-      <p>
-        Developed a machine learning model using Scikit-learn, Pandas, and NumPy to attribute authorship of corporate emails with up to a 95% accuracy integrated into a web-based prototype
-      </p>
+      <div className="p-4 bg-gray-800 rounded-lg text-white">
+        <div style={{ display: "flex", justifyContent: "space-between" }}>
+          <p>Security Compass</p>
+          <p>Software Engineering Intern | 2021</p>
+        </div>
+        <br />
+        <p className="text-justify">
+          Refactored asynchronous task queues of custom integration microservice
+          to move local file storage to an AWS S3 instance; resulting in higher
+          scalability, improved disaster recovery capability, and compliance
+          with customer data protection regulations.
+        </p>
+      </div>
     </div>
   );
 };
 
-export default About;
+export default Experience;
