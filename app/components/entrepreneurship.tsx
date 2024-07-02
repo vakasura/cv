@@ -1,51 +1,47 @@
 const Entrepreneurship = () => {
   return (
     <div>
-      <div className="p-4 bg-gray-800 rounded-lg text-white">
-        <div style={{ display: "flex", justifyContent: "space-between" }}>
-          <p>Flock</p>
-          <p>Founder | 2024</p>
+
+      <div className="overflow-hidden rounded-lg bg-white shadow">
+        <div className="px-4 py-5 sm:p-6">
+          <div style={{ display: "flex", justifyContent: "space-between", marginBottom: "10px" }}>
+            <p><b>Flock</b></p>
+            <p><b>Founder | 2024</b></p>
+          </div>
+          <p className="text-justify">
+            Currently working with my friends from the University of Toronto to
+            build a startup that builds open source tooling for AI developers.
+          </p>
         </div>
-        <br />
-        <p className="text-justify">
-          I founded a cybersecurity startup, that used machine learning and
-          linguistic analysis to prevent business email fraud through the
-          University of Toronto Hatchery, providing with $14,000 CAD in
-          fellowship funding. Using Scikit-learn, Pandas, and NumPy, we
-          developed a model capable of attributing authorship of corporate
-          emails with up to 95% accuracy.
-        </p>
       </div>
       <br />
-      <div className="p-4 bg-gray-800 rounded-lg text-white">
-        <div style={{ display: "flex", justifyContent: "space-between" }}>
-          <p>Planni</p>
-          <p>Founder | 2023</p>
+      <div className="overflow-hidden rounded-lg bg-white shadow">
+        <div className="px-4 py-5 sm:p-6">
+          <div style={{ display: "flex", justifyContent: "space-between", marginBottom: "10px" }}>
+            <p><b>Planni</b></p>
+            <p><b>Founder | 2023</b></p>
+          </div>
+          <p className="text-justify">
+            A property technology company that developed software to simplify
+            financial forecasting for property developers. We secured two
+            letters of intent, translating to $25 000 CAD in annual recurring
+            revenue and funding at a $1M CAD valuation from NEXT Canada.
+          </p>
         </div>
-        <br />
-        <p className="text-justify">
-          I founded a property technology company that developed software to
-          simplify financial forecasting for property developers. Our team used
-          React, NextJS, AWS, Typescript, and MongoDB to build our product. We
-          secured two letters of intent, translating to $25 000 CAD in annual
-          recurring revenue and funding at a $1M CAD valuation from NEXT Canada.
-        </p>
       </div>
       <br />
-      <div className="p-4 bg-gray-800 rounded-lg text-white">
-        <div style={{ display: "flex", justifyContent: "space-between" }}>
-          <p>Depactor</p>
-          <p>Founder | 2019</p>
+      <div className="overflow-hidden rounded-lg bg-white shadow">
+        <div className="px-4 py-5 sm:p-6">
+          <div style={{ display: "flex", justifyContent: "space-between", marginBottom: "10px" }}>
+            <p><b>Depactor</b></p>
+            <p><b>Founder | 2019</b></p>
+          </div>
+          <p className="text-justify">
+            A cybersecurity startup, that used machine learning and linguistic
+            analysis to prevent business email fraud through the University of
+            Toronto Hatchery, providing with $14,000 CAD in fellowship funding.
+          </p>
         </div>
-        <br />
-        <p className="text-justify">
-          I founded a cybersecurity startup, that used machine learning and
-          linguistic analysis to prevent business email fraud through the
-          University of Toronto Hatchery, providing with $14,000 CAD in
-          fellowship funding. Using Scikit-learn, Pandas, and NumPy, we
-          developed a model capable of attributing authorship of corporate
-          emails with up to 95% accuracy.
-        </p>
       </div>
     </div>
   );
