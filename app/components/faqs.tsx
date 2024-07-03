@@ -5,8 +5,8 @@ const FAQs = () => {
         <p>
           <b>How do you say your name?</b>
           <br />
-          Gaurav - pronounced "gow-ruh-vh". It is a sanskrit word meaning
-          "honor", "pride" or "respect".
+          Gaurav - pronounced &quot;gow-ruh-vh&quot;. It is a sanskrit word meaning
+          honor, pride or respect.
         </p>
         <br />
         <p>
