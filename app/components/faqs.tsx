@@ -30,7 +30,7 @@ const FAQs = () => {
         <p>
           <b>Drake or Kendrick?</b>
           <br />
-          Haters will say Kendrick, but I think Drake.
+          Haters will say Kendrick, real G&apos;s know it&apos;s Drake.
         </p>
       </div>
     </div>
