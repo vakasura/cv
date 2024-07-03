@@ -3,7 +3,7 @@ const About = () => {
     <div className="overflow-hidden rounded-lg bg-white shadow">
       <div className="px-4 py-5 sm:p-6">
         <p>
-          I'm a <b>mission driven software engineer</b> with a strong background in
+          I&apos;m a <b>mission driven software engineer</b> with a strong background in
           building scalable web applications.
         </p>
         <br />
@@ -13,7 +13,7 @@ const About = () => {
         </p>
         <br />
         <p>
-          I've worked at some of Canada's most innovative tech companies and
+          I&apos;ve worked at some of Canada&apos;s most innovative tech companies and
           most recently at <b>Martian (CB Insights Top 100 AI Companies)</b>,
           collaborating with other developers and designers to build products
           that help people do their best work.
@@ -26,7 +26,7 @@ const About = () => {
         </p>
         <br />
         <p>
-          <b>Don't be a stranger!</b> If you've got any questions, comments, or
+          <b>Don&apos;t be a stranger!</b> If you&apos;ve got any questions, comments, or
           feedback, please feel free to reach out.
         </p>
       </div>
