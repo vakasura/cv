@@ -5,6 +5,7 @@ import About from "./components/about";
 import Entrepreneurship from "./components/entrepreneurship";
 import Experience from "./components/experience";
 import Volunteering from "./components/volunteering";
+import FAQs from "./components/faqs";
 import Footer from "./components/footer";
 
 enum NavState {
@@ -28,7 +29,7 @@ const navStateToComponent = {
   [NavState.Entrepreneurship]: <Entrepreneurship />,
   [NavState.Experience]: <Experience />,
   [NavState.Volunteering]: <Volunteering />,
-  [NavState.FAQs]: <div>FAQs Component</div>,
+  [NavState.FAQs]: <FAQs />,
 };
 
 export default function Home() {
