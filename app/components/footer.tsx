@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaGithub, FaLinkedin, FaFacebook, FaInstagram } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 import { BsSubstack } from "react-icons/bs";
 
 const Footer = () => {
@@ -20,6 +21,9 @@ const Footer = () => {
         </a>
         <a href="https://gauravranganath.substack.com/" target="_blank" rel="noopener noreferrer">
             <BsSubstack />
+        </a>
+        <a href="https://x.com/granganath22" target="_blank" rel="noopener noreferrer">
+            <FaXTwitter />
         </a>
       </div>
     </footer>
