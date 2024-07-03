@@ -9,16 +9,16 @@ const Footer = () => {
         <a href="https://github.com/vakasura" target="_blank" rel="noopener noreferrer">
             <FaGithub />
         </a>
-        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.linkedin.com/in/gaurav-ranganath/" target="_blank" rel="noopener noreferrer">
             <FaLinkedin />
         </a>
-        <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.facebook.com/gaurav.ranganath.94/" target="_blank" rel="noopener noreferrer">
             <FaFacebook />
         </a>
-        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.instagram.com/gauravranganath/" target="_blank" rel="noopener noreferrer">
             <FaInstagram />
         </a>
-        <a href="https://substack.com" target="_blank" rel="noopener noreferrer">
+        <a href="https://gauravranganath.substack.com/" target="_blank" rel="noopener noreferrer">
             <BsSubstack />
         </a>
       </div>
