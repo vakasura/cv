@@ -1,55 +1,45 @@
+const experiences = [
+  {
+    company: "Martian",
+    role: "Founding Software Engineer | 2024",
+    description: "Used Docker, Kubernetes, and CircleCI, scaling the system from 100 to 250,000 requests per day."
+  },
+  {
+    company: "Clearco",
+    role: "Software Engineer | 2023",
+    description: "Designed an enterprise-level component library containing 40+ components using Vue3, PrimeVue, and Tailwind CSS."
+  },
+  {
+    company: "Koho",
+    role: "Software Developer | 2023",
+    description: "Refactored primary API to issue credit cards linked to appropriate payment processing network (PPN)."
+  },
+  {
+    company: "Security Compass",
+    role: "Software Engineering Intern | 2021",
+    description: "Refactored asynchronous task queues to move local file storage to an AWS S3 instance."
+  }
+];
+
 const Experience = () => {
   return (
     <div>
-      <div className="p-4 bg-zinc-800 rounded-lg text-white">
-        <div style={{ display: "flex", justifyContent: "space-between" }}>
-          <p>Martian</p>
-          <p>Founding Software Engineer | 2024</p>
+      {experiences.map((experience, index) => (
+        <div key={index} className="overflow-hidden rounded-lg bg-white shadow mb-4">
+          <div className="px-4 py-5 sm:p-6">
+            <div style={{ display: "flex", justifyContent: "space-between", marginBottom: "10px" }}>
+              <p><b>{experience.company}</b></p>
+              <p><b>{experience.role}</b></p>
+            </div>
+            <p className="text-justify">
+              {experience.description}
+            </p>
+          </div>
         </div>
-        <br />
-        <p className="text-justify">
-          Used Docker, Kubernetes, and CircleCI, scaling the system from 100 to
-          250,000 requests per day.
-        </p>
-      </div>
-      <br />
-      <div className="p-4 bg-zinc-800 rounded-lg text-white">
-        <div style={{ display: "flex", justifyContent: "space-between" }}>
-          <p>Clearco</p>
-          <p>Software Engineer | 2023</p>
-        </div>
-        <br />
-        <p className="text-justify">
-          Designed an enterprise-level component library
-          containing 40+ components using Vue3, PrimeVue, and Tailwind CSS.
-        </p>
-      </div>
-      <br />
-      <div className="p-4 bg-zinc-800 rounded-lg text-white">
-        <div style={{ display: "flex", justifyContent: "space-between" }}>
-          <p>Koho</p>
-          <p>Software Developer | 2023</p>
-        </div>
-        <br />
-        <p className="text-justify">
-          Refactored primary API to issue credit cards linked to appropriate
-          payment processing network (PPN).
-        </p>
-      </div>
-      <br />
-      <div className="p-4 bg-zinc-800 rounded-lg text-white">
-        <div style={{ display: "flex", justifyContent: "space-between" }}>
-          <p>Security Compass</p>
-          <p>Software Engineering Intern | 2021</p>
-        </div>
-        <br />
-        <p className="text-justify">
-          Refactored asynchronous task queues of custom integration microservice
-          to move local file storage to an AWS S3 instance.
-        </p>
-      </div>
+      ))}
     </div>
   );
 };
 
 export default Experience;
+

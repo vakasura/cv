@@ -4,6 +4,7 @@ import { useState } from "react";
 import About from "./components/about";
 import Entrepreneurship from "./components/entrepreneurship";
 import Experience from "./components/experience";
+import Volunteering from "./components/volunteering";
 import Footer from "./components/footer";
 
 enum NavState {
@@ -11,16 +12,14 @@ enum NavState {
   Entrepreneurship,
   Experience,
   Volunteering,
-  Essays,
   FAQs,
 }
 
 const navStateToText = {
   [NavState.About]: "Hey there! Thanks for checking out my CV.",
-  [NavState.Entrepreneurship]: "4x SWE & 2x Founder",
-  [NavState.Experience]: "4x SWE & 2x Founder",
+  [NavState.Entrepreneurship]: "4x SWE & 3x Founder",
+  [NavState.Experience]: "4x SWE & 3x Founder",
   [NavState.Volunteering]: "I think giving back is important!",
-  [NavState.Essays]: "I like to read and write about philosophy.",
   [NavState.FAQs]: "Questions I get asked a lot!",
 };
 
@@ -28,8 +27,7 @@ const navStateToComponent = {
   [NavState.About]: <About />,
   [NavState.Entrepreneurship]: <Entrepreneurship />,
   [NavState.Experience]: <Experience />,
-  [NavState.Volunteering]: <div>Volunteering Component</div>,
-  [NavState.Essays]: <div>Essays Component</div>,
+  [NavState.Volunteering]: <Volunteering />,
   [NavState.FAQs]: <div>FAQs Component</div>,
 };
 
@@ -68,16 +66,14 @@ export default function Home() {
             </li>
             <li>
               <a
-                href="#service"
+                href="#volunteering"
                 onClick={() => handleNavClick(NavState.Volunteering)}
               >
                 Volunteering
               </a>
             </li>
             <li>
-              <a href="#essays" onClick={() => handleNavClick(NavState.Essays)}>
-                Essays
-              </a>
+              <a href="https://gauravranganath.substack.com/" target="_blank">Essays</a>
             </li>
             <li>
               <a href="#faqs" onClick={() => handleNavClick(NavState.FAQs)}>

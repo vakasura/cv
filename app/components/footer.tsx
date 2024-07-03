@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <footer className="bg-zinc-800 text-white p-4 fixed bottom-0 left-1/2 transform -translate-x-1/2 w-full">
       <div className="flex justify-center space-x-4">
-        <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+        <a href="https://github.com/vakasura" target="_blank" rel="noopener noreferrer">
             <FaGithub />
         </a>
         <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
